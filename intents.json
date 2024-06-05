@@ -1,0 +1,50 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Hi there, how can I help?"]
+        },
+        {
+            "tag": "Offer accept",
+            "patterns": ["How do I accept my offer", "How do I accept my GBC offer"],
+            "responses": ["Hi, log on to ontariocolleges.ca to accept your offer. This acceptance will be downloaded to George Brown College the next business day."]
+        },
+        {
+            "tag": "course_enrollment",
+            "patterns": ["How can I enroll in courses?", "What’s the process for course registration?"],
+            "responses": ["Hi, you can enroll in courses through your STU-VIEW account. Enrollment dates and instructions are provided each semester and can be accessed from the 'Registration' section."]
+        },
+        {
+            "tag": "financial_aid",
+            "patterns": ["What financial aid options are available?", "How do I apply for scholarships?"],
+            "responses": ["Hi, george Brown offers a range of financial aid options including scholarships, bursaries, and grants. You can apply through your STU-VIEW portal under the 'Financial Aid' section."]
+        },
+        {
+            "tag": "academic_support",
+            "patterns": ["Where can I get tutoring help?", "I need help with my studies, what resources are available?"],
+            "responses": ["Hi, academic support is available through the Learning Commons. You can access tutoring services, study workshops, and other resources to help you succeed."]
+        },
+        {
+            "tag": "campus_facilities",
+            "patterns": ["What facilities are available at the campus?", "Tell me about the campus facilities"],
+            "responses": ["Hi, our campus includes libraries, sports facilities, student lounges, and dining areas. You can learn more about specific facilities on the George Brown College website or by visiting the campus."]
+        },
+        {
+            "tag": "event_info",
+            "patterns": ["What events are happening this month?", "Show me the college events calendar"],
+            "responses": ["Hi, you can find the latest events and activities happening at George Brown on our Events Calendar available on the website. Check regularly for new updates!"]
+        },
+        {
+            "tag": "covid_guidelines",
+            "patterns": ["What are the current COVID-19 guidelines at campus?", "Do I need to wear a mask on campus?"],
+            "responses": ["Hi, current COVID-19 guidelines require masks in indoor settings and recommend regular sanitization. For the latest updates, please check our official COVID-19 response page on the George Brown College website."]
+        },
+       {
+            "tag": "application_and_transcripts",
+            "patterns": ["Where do I send my transcripts?", "Where should I send my transcripts?"],
+            "responses": ["Hi, official transcripts can be sent via ontariocolleges.ca. The documents will be then forwarded to George Brown College. Please note that it can take up to two weeks for documents to reach the college and another two to three weeks to be processed."]
+       }
+
+    ]
+}
